@@ -8,9 +8,5 @@ namespace huynh_tien_thang_c2109i2_25_1
 {
     internal class Class1
     {
-        public int hay;
-        public int chan;
-        public int kohaylam;
-        public int kohay;
     }
 }
