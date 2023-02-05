@@ -33,6 +33,7 @@
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.studentNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
@@ -49,7 +50,7 @@
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.studentGridView1 = new System.Windows.Forms.DataGridView();
             this.studentSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -64,6 +65,7 @@
             this.flowLayoutPanel2.Controls.Add(this.button3);
             this.flowLayoutPanel2.Controls.Add(this.button4);
             this.flowLayoutPanel2.Controls.Add(this.button5);
+            this.flowLayoutPanel2.Controls.Add(this.button6);
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
@@ -87,6 +89,15 @@
             this.button4.TabIndex = 1;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(484, 3);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(287, 61);
+            this.button5.TabIndex = 2;
+            this.button5.Text = "hya lamws";
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
@@ -234,14 +245,14 @@
             this.studentGridView1.TabIndex = 0;
             this.studentGridView1.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.studentGridView1_DataError);
             // 
-            // button5
+            // button6
             // 
-            this.button5.Location = new System.Drawing.Point(484, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(287, 61);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "hya lamws";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button6.Location = new System.Drawing.Point(777, 3);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 61);
+            this.button6.TabIndex = 3;
+            this.button6.Text = "chán lắm";
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -300,6 +311,7 @@
         private System.Windows.Forms.DataGridView studentGridView1;
         private System.Windows.Forms.BindingSource studentSource1;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 
